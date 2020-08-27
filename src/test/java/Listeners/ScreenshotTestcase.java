@@ -1,4 +1,4 @@
-package Listeners;
+ package Listeners;
 
 
 import org.testng.Assert;
@@ -20,7 +20,7 @@ public class ScreenshotTestcase extends Base {
 		driver.quit();
 	}
 	
-	@Test//(priority = 1)
+	@Test(priority = 1)
 	public void takeScreenshotTest1() {
 		Assert.assertEquals(false, true);
 	}
@@ -31,8 +31,9 @@ public class ScreenshotTestcase extends Base {
 	}
 	
 	@Test
-	public void takeScreenshotTest3() {
-		Assert.assertEquals(false, true);
+	public void takeScreenshotTest4() {
+		Assert.assertEquals(true, true);
+		
 	}
 
 }
